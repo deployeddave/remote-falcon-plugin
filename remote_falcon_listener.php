@@ -37,7 +37,7 @@ if (strlen(urldecode($pluginSettings['fppStatusCheckTime']))<1){
   WriteSettingToFile("fppStatusCheckTime",urlencode("1"),$pluginName);
 }
 if (strlen(urldecode($pluginSettings['pluginsApiPath']))<1){
-  WriteSettingToFile("pluginsApiPath",urlencode("https://remotefalcon.com/remote-falcon-plugins-api"),$pluginName);
+  WriteSettingToFile("pluginsApiPath",urlencode("https://webbfamilylightshow.com/remote-falcon-plugins-api"),$pluginName);
 }
 if (strlen(urldecode($pluginSettings['verboseLogging']))<1){
   WriteSettingToFile("verboseLogging",urlencode("false"),$pluginName);
